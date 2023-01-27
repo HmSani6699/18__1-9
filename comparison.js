@@ -22,3 +22,20 @@ if (x < y) {
 }
 // console.log(6 != 6);
 // console.log(6 >= 6)
+
+
+
+var ami = 200;
+var tomi = 400;
+// console.log(ami < tomi);
+// console.log(ami > tomi);
+
+
+
+
+
+var number1 = 100;
+var number2 = 300;
+
+console.log(number1 <= number2);
+console.log(number1 >= number2);
