@@ -22,7 +22,7 @@ else if (tomato > maney) {
     console.log('tomato apple er posti dey')
 }
 else if (lobon > maney) {
-    console.log('lobon diye bat kai')
+    // console.log('lobon diye bat kai')
 }
 else if (ada > maney) {
     console.log('ada mama kinto  khive jal')
@@ -32,4 +32,17 @@ else if (roson > maney) {
 }
 else {
     console.log('ami tomader kaoke cai na')
+}
+
+
+
+var chale = true;
+var salary = 200;
+var gari = 0;
+
+if (chale === true && salary === 200 && gari > 1) {
+    console.log('ami timake onek vallo basi chalo biye kore fali')
+}
+else {
+    console.log('tomar kopale biya nai')
 }
