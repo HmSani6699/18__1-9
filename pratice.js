@@ -54,5 +54,52 @@ else if (roll_3 >= roll_1 && roll_3 >= roll_2 && roll_3 >= roll_4) {
     console.log(roll_3)
 }
 else {
-    console.log(roll_4)
+    // console.log(roll_4)
+}
+
+
+
+///////========================///////
+
+//practice problem 1
+
+var fruits = ['Apple', 'Banana', 'Orange'];
+
+// chack your index to Banana
+var banana = fruits.indexOf('Banana');
+
+//update your element To in Banana
+fruits[1] = "Mango"
+
+//remove item
+fruits.pop()
+
+//set item
+fruits.push('Watermelon')
+// console.log(fruits)
+
+
+//problem number 2
+
+var sani = 66;
+var babu = 95;
+var apu = 56;
+var abit = 40;
+
+var score = 39;
+
+if (score >= 80) {
+    console.log('80 or above A grade')
+}
+else if (score >= 60) {
+    console.log('60 or above B grade')
+}
+else if (score >= 50) {
+    console.log('50 or above C grade')
+}
+else if (score >= 40) {
+    console.log('40 or above D grade')
+}
+else {
+    console.log('39 or less => F grade')
 }
